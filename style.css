@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Minha fonte';
+    src: url('idroid.otf');
+}
+body{
+    background:linear-gradient( to right , #40e035b4,#56c44fbe) ;
+    margin: 0%;
+}
+nav{
+    background:linear-gradient( to bottom , #4c9647b4,#254d22be) ;
+    padding:20px 20px 10px 20px;
+}
+nav > h1{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+}
+nav > h2{
+    text-align: center;
+    color:white;
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+nav > a{
+    text-decoration: none;
+    color:white;
+    padding:10px ;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    text-align: center;
+    
+}
+nav > a:hover{
+    background-color: #38BF2E;
+    color: black;
+    border-radius: 5px 5px 1px 1px;
+    
+}
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0px auto;
+    padding:1%;
+    border-radius: 1px 1px 30px 30px;
+    box-shadow: 2px 2px 2px #164b122f ;
+
+}
+.parteinicial > strong {
+    background-color: #38BF2E;
+    color: black;
+}
+article > h1,h2{
+    color: #1e6b19;
+    font-family: 'Minha fonte',sans-serif;
+}
+article > p{
+    text-indent: 20px;
+    text-align: justify;
+}
+strong{
+    color: #38BF2E;
+    text-decoration: none;
+}
+a > strong{
+    background-color: #38bf2ea4; 
+    color: black;
+    padding-left: 7px;
+}
+a > strong:hover{
+    text-decoration: underline;
+}
+strong > img{
+    height: 15px;
+    width: 15px;
+}
+a{
+    text-decoration: none;
+}
+article > h2{
+    background:linear-gradient( to right , #35b92c59,white);
+    padding-left: 15px;
+}
+article > img {
+  display: block;
+  margin: 0 auto;
+}
+picture > img{
+  display: block;
+  margin: 0 auto;
+}
+#video{
+    background-color: #406A3D;
+    margin: 0% -14px;
+    padding-bottom: 58%;
+    position: relative;
+
+}
+#video > iframe{
+    position :absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.checklist li::before {
+    content: "\2713";
+    font-weight: bolder;
+    color: black;
+    margin-right: 8px;
+    
+}
+.checklist{
+    text-decoration: none;
+    list-style: none;
+    
+}
+li:hover{
+    text-decoration: underline;;
+}
+.checklist02 li::before {
+    content: "\2713";
+    font-weight: bolder;
+    color: black;
+    margin-right: 8px;
+}
+.checklist02{
+    text-decoration: none;
+    list-style: none;
+}
+.listas{
+    display: flex;
+    gap: 300px;
+    padding: 15px;
+}
+.caixadepergunta > h1{
+    background-color: #38BF2E;
+    color: white;
+    border-radius: 10px 10px 1px 1px;
+    padding: 5px;
+    font-size: 20px;
+}
+.caixadepergunta{
+    background-color: #5fff54a4;
+    border-radius: 10px;
+    padding: 0px 1px 34px 0px;
+}
+.caixadepergunta > p{
+    text-indent: 20px;
+    padding: 10px;
+}
+main > p {
+    text-indent: 20px ;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #1e6b19;
+    padding: 10px;
+    margin-top: 20px;
+}
+
